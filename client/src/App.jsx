@@ -42,55 +42,6 @@ const App = () => {
     };
   }, []);
   return (
-    // <Container>
-    //   <Typography variant="h1">Welcome to Socket Io</Typography>
-    //   <p className="text-xl">{socketId}</p>
-
-    //   <form onSubmit={joinRoomHandler} action="">
-    //     <h5>Join Room</h5>
-    //     <TextField
-    //       value={roomName}
-    //       onChange={(e) => {
-    //         setRoomName(e.target.value);
-    //       }}
-    //       id="outlined-basic"
-    //       label="Room Name"
-    //       variant="outlined"
-    //     />
-    //     <Button type="submit" variant="contained" color="primary">
-    //       Join
-    //     </Button>
-    //   </form>
-
-    //   <form onSubmit={handleSubmit} action="">
-    //     <TextField
-    //       value={message}
-    //       onChange={(e) => {
-    //         setMessage(e.target.value);
-    //       }}
-    //       id="outlined-basic"
-    //       label="Message"
-    //       variant="outlined"
-    //     />
-    //     <TextField
-    //       value={room}
-    //       onChange={(e) => {
-    //         setRoom(e.target.value);
-    //       }}
-    //       id="outlined-basic"
-    //       label="Room"
-    //       variant="outlined"
-    //     />
-    //     <Button type="submit" variant="contained" color="primary">
-    //       Send
-    //     </Button>
-    //   </form>
-    //   <Stack>
-    //     {messages.map((m, i) => (
-    //       <p>{m}</p>
-    //     ))}
-    //   </Stack>
-    // </Container>
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <h1 className="text-3xl font-bold mb-4">Welcome to Socket Io</h1>
       <p className="text-xl mb-8">{socketId}</p>
